@@ -99,7 +99,6 @@ h1 {
     margin-left: 12px;
 }
 
-
 .stats-links {
     color: #4b5c66;
     font-size: 12px;
@@ -168,11 +167,36 @@ input.submit {
     background-image: url("../img/icon/station-white.png");
 }
 
+@media(min-width: 1400px) {
+    #albums article {
+        font-size: 0.8em;
+        color: #89949b;
+        margin: 10px 0;
+    }
+}
 
-#albums article {
-    font-size: 13px;
-    color: #89949b;
-    margin: 10px 0;
+@media(min-width: 600px) and (max-width: 1400px) {
+    #albums article {
+        font-size: 0.7em;
+        color: #89949b;
+        margin: 10px 0;
+    }
+}
+
+@media(min-width: 450px) and (max-width: 600px) {
+    #albums article {
+        font-size: 0.6em;
+        color: #89949b;
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 450px) {
+    #albums article {
+        font-size: 0.5em;
+        color: #89949b;
+        margin: 10px 0;
+    }
 }
 
 #albums article img {
@@ -216,6 +240,8 @@ nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
-
-
-
+@media(max-width: 576px) {
+    #hidden{
+        display: none;
+    }
+}
